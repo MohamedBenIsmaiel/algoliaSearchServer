@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('survey','root','password',{
+const sequelize = new Sequelize('algolia','root','password',{
     host: "localhost",
     dialect: "mysql",
 });
